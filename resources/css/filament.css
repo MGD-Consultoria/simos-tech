@@ -1,0 +1,31 @@
+.fi-topbar :is(nav) {
+    background-color: #E1AD31 !important;
+}
+
+.fi-sidebar .fi-sidebar-header {
+    background-color: #E1AD31 !important;
+}
+
+.fi-sidebar .fi-dropdown-header-label {
+    background-color: white !important;
+}
+
+.fi-simple-layout {
+    background-color: #E1AD31 !important;
+}
+
+.fi-sidebar {
+    background-color: #eaeaeb !important;
+}
+
+img[alt="Logo"] {
+    height: 50px !important;
+}
+
+.fi-simple-header img[alt="Logo"] {
+    height: 80px !important;
+}
+
+.fi-simple-header .fi-simple-header-heading {
+    display: none !important;
+}

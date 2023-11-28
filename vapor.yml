@@ -1,0 +1,10 @@
+id: 54776
+name: startup-challenge-2023-erp
+environments:
+    production:
+        memory: 1024
+        cli-memory: 512
+        database: acto-database
+        runtime: 'php-8.2:al2'
+        build:
+            - 'composer install --no-dev --ignore-platform-req=ext-intl'
